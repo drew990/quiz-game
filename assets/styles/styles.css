@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #14213d;
+  --secondary-color: #e8eddf;
+  --standard-padding: 1rem 4rem;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: var(--standard-padding);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header button {
+  padding: 0.2rem 0.5rem;
+  font-size: medium;
+  border-radius: 0.2rem;
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+main {
+  margin: 4rem auto;
+  padding: 0 1rem;
+  max-width: 700px;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+}
+main button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+
+  box-shadow: -1px 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+#question-btn {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#question-btn button {
+  width: 250px;
+  margin: 0.5rem auto;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: large;
+}
+input {
+  width: 100px;
+  margin: 1rem auto;
+}
+
+.score {
+  background-color: #f5cb5c;
+  margin: 0.5rem auto;
+  width: 100%;
+  padding: 0.25rem 0;
+  box-shadow: -1px 5px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+#option-div {
+  display: flex;
+  justify-content: space-evenly;
+}
